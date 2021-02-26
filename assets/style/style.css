@@ -4,6 +4,9 @@
   height: 100px;
   width: 250px;
   left: -300px;
+  -webkit-transition: left 1.5s ease;
+  -moz-transition: left 1.5s ease;
+  -o-transition: left 1.5s ease;
   transition: left 1.5s ease;
 }
 
@@ -13,7 +16,7 @@
   top: 2px;
   height: 96px;
   width: 96px;
-  border:royalblue solid 2px;
+  border: royalblue solid 2px;
   box-sizing: border-box;
   border-radius: inherit;
 }
